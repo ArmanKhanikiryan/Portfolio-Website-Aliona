@@ -6,10 +6,10 @@ const Navbar = () => {
             <div data-aos="fade-up-right" data-aos-duration="1500" className='right_part'>
                 <div className="buttons">Aliona</div>
             </div>
-            <div data-aos="fade-up-left" data-aos-duration="1500" className='left_part'>
-               <div className="buttons">Work</div>
-               <div className="buttons">About</div>
-               <div className="buttons">Contact</div>
+            <div className='left_part'>
+               <div data-aos="fade-up-right" data-aos-duration="1500" className="buttons">Work</div>
+               <div data-aos="fade-up-right" data-aos-duration="1500" className="buttons">About</div>
+               <div data-aos="fade-up-right" data-aos-duration="1500" className="buttons">Contact</div>
             </div>
         </div>
     );

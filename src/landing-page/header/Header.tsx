@@ -15,7 +15,7 @@ const Header = () => {
                     nulla malesuada pellentesque. <br/>
                 </div>
             </div>
-            <img src={img1} className='header_image' alt="test" data-aos="fade-up-left" data-aos-duration="1500" />
+            <img src={img1} className='header_image' alt="test" data-aos="fade-up-right" data-aos-duration="1500" />
 
             <div className='responsive_header_body'>
                 <h1 data-aos="fade-up-right" data-aos-duration="1500" className="header_text">

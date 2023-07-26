@@ -6,6 +6,7 @@ import Header from "@/landing-page/header";
 import './App.css'
 import ServExp from "@/landing-page/service-experience";
 import Work from "@/landing-page/work";
+import About from "@/landing-page/about";
 
 const App = () => {
     useEffect(() => {
@@ -23,6 +24,7 @@ const App = () => {
                 <Header/>
                 <ServExp/>
                 <Work/>
+                <About/>
             </div>
         </div>
     );
