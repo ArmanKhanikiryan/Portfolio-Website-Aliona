@@ -1,10 +1,10 @@
 import './Contact.css'
 import whiteArrow from '@/assets/white-arrow.png'
 import arrow from '@/assets/black-arrow.png'
-const Contact = () => {
-    const handleRedirect = (url:string) => {
-        window.open(url, '_blank');
-    }
+import {FC} from "react";
+import {IRedirect} from "@/utils/types";
+
+const Contact:FC<IRedirect> = ({handleRedirect}) => {
     return (
         <div className='contact_container'>
             <h1 data-aos="fade-up-right" data-aos-duration="1500" className='contact_title'>Contact</h1>

@@ -25,11 +25,13 @@
 }
 .links_creator_name{
     text-decoration: underline;
+    cursor: pointer;
 }
 
 .links_icons{
     width: 25px;
     margin: 10px;
+    cursor: pointer;
 }
 
 @media screen and (max-width: 767px){

@@ -11,9 +11,6 @@ import Contact from "@/landing-page/contact";
 import Footer from "@/landing-page/footer";
 import Links from "@/landing-page/links";
 
-export interface IComponent {
-    handleScrollClick: (position: number) => void
-}
 
 const App = () => {
     useEffect(() => {
@@ -30,6 +27,9 @@ const App = () => {
             behavior: "smooth"
         })
     }
+    const handleRedirect = (url:string) => {
+        window.open(url, '_blank');
+    }
     return (
         <div className='App'>
             <div>
@@ -38,9 +38,9 @@ const App = () => {
                 <ServExp/>
                 <Work/>
                 <About/>
-                <Contact/>
+                <Contact handleRedirect={handleRedirect}/>
                 <Footer handleScrollClick={handleScrollClick}/>
-                <Links/>
+                <Links handleRedirect={handleRedirect}/>
             </div>
         </div>
     );
