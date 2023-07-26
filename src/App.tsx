@@ -11,6 +11,10 @@ import Contact from "@/landing-page/contact";
 import Footer from "@/landing-page/footer";
 import Links from "@/landing-page/links";
 
+export interface IComponent {
+    handleScrollClick: (position: number) => void
+}
+
 const App = () => {
     useEffect(() => {
         AOS.init({
@@ -20,16 +24,22 @@ const App = () => {
         });
     }, []);
 
+    const handleScrollClick = (position: number) => {
+        window.scrollTo({
+            top: position,
+            behavior: "smooth"
+        })
+    }
     return (
         <div className='App'>
             <div>
-                <Navbar/>
+                <Navbar handleScrollClick={handleScrollClick}/>
                 <Header/>
                 <ServExp/>
                 <Work/>
                 <About/>
                 <Contact/>
-                <Footer/>
+                <Footer handleScrollClick={handleScrollClick}/>
                 <Links/>
             </div>
         </div>

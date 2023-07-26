@@ -6,6 +6,7 @@ import instagram from '@/assets/instagram-icon.png'
 import twitter from '@/assets/twitter-icon.png'
 
 const Links = () => {
+
     return (
         <div className='links_wrapper'>
             <div data-aos="fade-up-right" data-aos-duration="1200" className='links_line'></div>

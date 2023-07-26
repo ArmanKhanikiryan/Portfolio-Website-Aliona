@@ -1,4 +1,5 @@
 html {
     font-family: 'Manrope', sans-serif;
+    scroll-behavior: smooth 0.5s;
 }
 
