@@ -1,6 +1,6 @@
 import './Navbar.css'
 import {FC} from "react";
-import {IComponent} from "@/App";
+import {IComponent} from "@/utils/types";
 
 
 const Navbar:FC<IComponent> = ({handleScrollClick}) => {

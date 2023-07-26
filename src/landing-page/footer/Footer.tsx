@@ -1,6 +1,6 @@
 import './Footer.css'
 import {FC} from "react";
-import {IComponent} from "@/App";
+import {IComponent} from "@/utils/types";
 
 const Footer:FC<IComponent> = ({handleScrollClick}) => {
     return (
