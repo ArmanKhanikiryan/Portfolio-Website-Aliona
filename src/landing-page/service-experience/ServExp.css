@@ -23,7 +23,7 @@
     transition: all 0.3s ease-in-out;
 }
 
-.line{
+.line_serv{
     height: 1px;
     width: 40vw;
     background-color: #B2B2B2;
@@ -61,13 +61,13 @@ span {
     .serv_exp_title{
         margin: 0 0 40px 0;
     }
-    .line{
+    .line_serv{
         width: calc(100vw - 85px);
     }
 }
 
 @media screen and (max-width: 766px){
-    .line{
+    .line_serv{
         width: 100%;
     }
 }

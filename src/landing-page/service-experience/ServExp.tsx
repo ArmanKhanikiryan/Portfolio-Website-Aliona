@@ -8,19 +8,19 @@ const ServExp = () => {
             <div className='service'>
                 <div className='serv_exp_element'>
                     <div data-aos="fade-up-right" data-aos-duration="1200">Product design</div>
-                    <div data-aos="fade-up-right" data-aos-duration="1200" className='line'></div>
+                    <div data-aos="fade-up-right" data-aos-duration="1200" className='line_serv'></div>
                 </div>
                 <div className='serv_exp_element'>
                     <div data-aos="fade-up-right" data-aos-duration="1200">UI/UX</div>
-                    <div data-aos="fade-up-right" data-aos-duration="1200" className='line'></div>
+                    <div data-aos="fade-up-right" data-aos-duration="1200" className='line_serv'></div>
                 </div>
                 <div className='serv_exp_element'>
                     <div data-aos="fade-up-right" data-aos-duration="1200">User research</div>
-                    <div data-aos="fade-up-right" data-aos-duration="1200" className='line'></div>
+                    <div data-aos="fade-up-right" data-aos-duration="1200" className='line_serv'></div>
                 </div>
                 <div className='serv_exp_element'>
                     <div data-aos="fade-up-right" data-aos-duration="1200" >3D modeling</div>
-                    <div data-aos="fade-up-right" data-aos-duration="1200" className='line'></div>
+                    <div data-aos="fade-up-right" data-aos-duration="1200" className='line_serv'></div>
                 </div>
             </div>
             </div>
@@ -33,7 +33,7 @@ const ServExp = () => {
                     <span data-aos="fade-up-right" data-aos-duration="1200">Uber</span>
                     <span data-aos="fade-up-right" data-aos-duration="1200">2020-21</span>
                         </div>
-                    <div data-aos="fade-up-right" data-aos-duration="1200" className='line'></div>
+                    <div data-aos="fade-up-right" data-aos-duration="1200" className='line_serv'></div>
                 </div>
                 <div className='serv_exp_element'>
                     <div data-aos="fade-up-right" data-aos-duration="1200">Senior Designer</div>
@@ -41,7 +41,7 @@ const ServExp = () => {
                     <span data-aos="fade-up-right" data-aos-duration="1200">Google</span>
                     <span data-aos="fade-up-right" data-aos-duration="1200">2021-22</span>
                     </div>
-                    <div data-aos="fade-up-right" data-aos-duration="1200" className='line'></div>
+                    <div data-aos="fade-up-right" data-aos-duration="1200" className='line_serv'></div>
                 </div>
                 <div className='serv_exp_element'>
                     <div data-aos="fade-up-right" data-aos-duration="1200">Product Design Manager</div>
@@ -49,7 +49,7 @@ const ServExp = () => {
                     <span data-aos="fade-up-right" data-aos-duration="1200">Netflix</span>
                     <span data-aos="fade-up-right" data-aos-duration="1200">2021-22</span>
                     </div>
-                    <div data-aos="fade-up-right" data-aos-duration="1200" className='line'></div>
+                    <div data-aos="fade-up-right" data-aos-duration="1200" className='line_serv'></div>
                 </div>
                 <div data-aos="fade-up-right" data-aos-duration="1200" className='serv_exp_element'>
                     <div data-aos="fade-up-right" data-aos-duration="1200">Principal Designer</div>
@@ -57,7 +57,7 @@ const ServExp = () => {
                         <span data-aos="fade-up-right" data-aos-duration="1200">Apple</span>
                         <span data-aos="fade-up-right" data-aos-duration="1200">2021-22</span>
                     </div>
-                    <div className='line'></div>
+                    <div className='line_serv'></div>
                 </div>
             </div>
             </div>
