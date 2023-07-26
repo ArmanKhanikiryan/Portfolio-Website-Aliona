@@ -55,7 +55,6 @@
 
 .arrow_icon_white:hover {
     transform: rotate(-30deg);
-    color: white;
 }
 
 .contact_filed{
@@ -89,6 +88,7 @@
     width: 40px;
     position: relative;
     transition: transform 0.3s ease;
+    transform: rotate(-30deg);
 }
 
 .contact_filed_info{
