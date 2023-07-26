@@ -24,10 +24,9 @@ const Header = () => {
                     in Sydney
                 </h1>
                 <div className='header_bottom_text' data-aos="fade-up-right" data-aos-duration="1500">
-                    З Новим роком вас вітаю<br />
-                    Миру , щастя всім бажаю.<br />
-                    Хай лунає сміх дитячий,<br />
-                    Та в житті панує вдача<br />
+                    Et ligula ullamcorper malesuada <br/>
+                    proin libero. Mi tempus imperdiet <br/>
+                    nulla malesuada pellentesque. <br/>
                 </div>
                 <div className='responsive_header_body_image_wrapper'>
                     <img src={img1} className='header_image' alt="test" data-aos="zoom-in-down" data-aos-duration="1500" />
