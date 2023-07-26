@@ -35,7 +35,7 @@ const Work = () => {
                         <h3 className='work_descriptor_title'>Sense</h3>
                         <span>DESIGN / DEVELOPMENT </span>
                     </div>
-                    <div className='work_section_descriptor'>
+                    <div data-aos="fade-up-left" data-aos-duration="1500" className='work_section_descriptor'>
                         Illo expedita corrupti placeat cupiditate veniam<br/>
                         placeat dolorum libero doloremque. Incidunt cum<br/>
                         dolorum dolorem. Sunt et quod molestiae. Quo sed <br/>
@@ -54,7 +54,7 @@ const Work = () => {
                         <h3 className='work_descriptor_title'>Fundezy</h3>
                         <span>DESIGN / DEVELOPMENT </span>
                     </div>
-                    <div className='work_section_descriptor'>
+                    <div data-aos="fade-up-left" data-aos-duration="1500" className='work_section_descriptor'>
                         Illo expedita corrupti placeat cupiditate veniam<br/>
                         placeat dolorum libero doloremque. Incidunt cum<br/>
                         dolorum dolorem. Sunt et quod molestiae. Quo sed <br/>
