@@ -1,0 +1,108 @@
+.header_wrapper{
+    display: flex;
+    flex-direction: column;
+    transition: all 0.3s ease-in-out;
+    padding-bottom: 85px;
+}
+
+.header_image{
+    width: 45vw;
+    position: absolute;
+    right: 45px;
+    top: 60vh;
+    transition: all 0.3s ease-in-out;
+    z-index: 2;
+}
+
+.header_text_wrapper{
+    display: flex;
+    flex-direction: column;
+    height: 145vh;
+    justify-content: space-between;
+    transition: all 0.3s ease-in-out;
+}
+
+.header_text{
+    font-size: 74px;
+    font-weight: 600;
+    line-height: 74px;
+    letter-spacing: -1px;
+    padding: 90px 0;
+    transition: all 0.3s ease-in-out;
+}
+
+.header_bottom_text{
+    font-size: 20px;
+    line-height: 27px;
+    transition: all 0.3s ease-in-out;
+}
+
+.responsive_header_body{
+    display: none;
+    transition: all 0.3s ease-in-out;
+}
+
+
+@media screen and (max-width: 1200px){
+    .header_text > br{
+        display: none;
+    }
+    .header_text{
+        max-width: 70%;
+    }
+    .header_image{
+        top: 70vh;
+    }
+
+}
+@media screen and (max-width: 990px){
+    .header_text > br{
+        display: none;
+    }
+    .header_text{
+        padding-bottom: 0;
+        margin-bottom: 0;
+    }
+    .header_text_wrapper{
+        display: none;
+    }
+    .header_wrapper > img{
+        display: none;
+    }
+    .responsive_header_body{
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+    }
+    .responsive_header_body_image_wrapper > img{
+        position: static;
+        width: 75%;
+    }
+    .responsive_header_body_image_wrapper{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+}
+@media screen and (max-width: 765px){
+    .header_text{
+        font-size: 48px;
+        line-height: 48px;
+    }
+    .responsive_header_body_image_wrapper > img{
+        position: static;
+        width: calc(100vw - 45px);
+    }
+}
+@media screen and (max-width: 470px){
+    .header_text{
+        font-size: 30px;
+        line-height: 48px;
+    }
+}
+@media screen and (max-width: 280px){
+    .header_text{
+        font-size: 25px;
+        line-height: 25px;
+    }
+}
