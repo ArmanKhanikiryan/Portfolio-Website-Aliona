@@ -1,4 +1,3 @@
-import React from 'react';
 import './Work.css'
 import img1 from '@/assets/work-test1.jpg'
 import img2 from "@/assets/work-test2.jpeg"

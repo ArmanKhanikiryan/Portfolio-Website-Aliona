@@ -1,4 +1,3 @@
-import React from 'react';
 import './Header.css'
 import img1 from '@/assets/test-img.jpeg'
 const Header = () => {
