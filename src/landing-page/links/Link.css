@@ -1,0 +1,42 @@
+.links_wrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.links_line{
+    height: 1px;
+    width: 100%;
+    background-color: #B2B2B2;
+}
+
+.links_components{
+    display: flex;
+    justify-content: space-between;
+}
+.links_underline{
+    display: flex;
+    gap: 5px;
+    margin-top: 10px;
+}
+.links_underline > div{
+    font-size: 16px;
+    line-height: 22px;
+}
+.links_creator_name{
+    text-decoration: underline;
+}
+
+.links_icons{
+    width: 25px;
+    margin: 10px;
+}
+
+@media screen and (max-width: 767px){
+    .links_components{
+        flex-direction: column;
+    }
+    #last_lik_item{
+        margin-left: 0;
+    }
+}

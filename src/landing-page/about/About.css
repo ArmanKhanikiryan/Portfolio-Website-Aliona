@@ -41,8 +41,9 @@
 }
 
 .about_image {
-    margin-top: 100px;
+    margin: 100px 0;
     width: 120vh;
+    aspect-ratio: 2/1.5;
 }
 
 @media screen and (max-width: 945px){
@@ -64,6 +65,21 @@
 @media screen and (max-width: 490px){
     .about_title{
         font-size: 32px;
+    }
+}
+@media screen and (max-width: 357px){
+    .about_image{
+        margin-top: 200px;
+    }
+}
+@media screen and (max-width: 308px){
+    .about_image{
+        margin-top: 250px;
+    }
+}
+@media screen and (max-width: 280px){
+    .about_image{
+        margin-top: 300px;
     }
 }
 

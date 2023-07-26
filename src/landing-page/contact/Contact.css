@@ -1,0 +1,142 @@
+.contact_container{
+    margin: 100px 0 150px 0;
+}
+.contact_wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact_title{
+    font-size: 55px;
+    line-height: 55px;
+    font-weight: 600;
+    margin-bottom: 55px;
+}
+
+
+.arrow_icon_white{
+    display: none;
+    position: relative;
+    transition: transform 0.3s ease;
+}
+
+.arrow_icon{
+    width: 40px;
+    position: relative;
+    transition: transform 0.3s ease;
+}
+
+.arrow_icon::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(45deg);
+    width: 10px;
+    height: 2px;
+    background-color: #fff;
+}
+
+.arrow_icon:hover {
+    transform: rotate(-30deg);
+    color: white;
+}
+
+.arrow_icon_white::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(45deg);
+    width: 10px;
+    height: 2px;
+    background-color: #fff;
+}
+
+.arrow_icon_white:hover {
+    transform: rotate(-30deg);
+    color: white;
+}
+
+.contact_filed{
+    background-image: linear-gradient(to right, white 50%, rgba(0,0,0) 50%);
+    background-size: 200% 100%;
+    transition: background-position 0.2s ease;
+}
+
+.contact_filed_info{
+    display: inline-block;
+    transition: transform 0.3s ease;
+}
+
+.contact_filed_info:hover{
+    transform: scale(.95);
+}
+
+.contact_filed:hover{
+    background-position: -100% 0;
+    color: white;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.contact_filed:hover > div > .arrow_icon{
+    display: none;
+}
+
+.contact_filed:hover > div > .arrow_icon_white{
+    display: block;
+    width: 40px;
+    position: relative;
+    transition: transform 0.3s ease;
+}
+
+.contact_filed_info{
+    display: flex;
+    justify-content: space-between;
+}
+
+.line{
+    height: 1px;
+    width: 40vw;
+    background-color: #B2B2B2;
+    transition: all 0.3s ease-in-out;
+}
+
+.contact_filed_wrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+}
+
+.contact_filed > div{
+    line-height: 32px;
+    font-size: 24px;
+}
+
+
+@media screen and (max-width: 470px){
+    .contact_wrapper{
+        flex-direction: column;
+        gap: 40px;
+    }
+    .contact_filed_wrapper{
+        gap: 40px;
+    }
+    .line{
+        width: 100%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

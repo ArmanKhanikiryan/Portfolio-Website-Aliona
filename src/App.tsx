@@ -7,6 +7,9 @@ import './App.css'
 import ServExp from "@/landing-page/service-experience";
 import Work from "@/landing-page/work";
 import About from "@/landing-page/about";
+import Contact from "@/landing-page/contact";
+import Footer from "@/landing-page/footer";
+import Links from "@/landing-page/links";
 
 const App = () => {
     useEffect(() => {
@@ -25,6 +28,9 @@ const App = () => {
                 <ServExp/>
                 <Work/>
                 <About/>
+                <Contact/>
+                <Footer/>
+                <Links/>
             </div>
         </div>
     );

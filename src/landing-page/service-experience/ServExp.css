@@ -26,8 +26,9 @@
 .line{
     height: 1px;
     width: 40vw;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: #B2B2B2;
     transition: all 0.3s ease-in-out;
+    margin-top: 5px;
 }
 
 span {
