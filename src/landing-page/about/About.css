@@ -69,12 +69,12 @@
 }
 @media screen and (max-width: 357px){
     .about_image{
-        margin-top: 450px;
+        margin-top: 200px;
     }
 }
 @media screen and (max-width: 308px){
     .about_image{
-        margin-top: 250px;
+        margin-top: 350px;
     }
 }
 @media screen and (max-width: 280px){
