@@ -1,5 +1,4 @@
 import React, {FC, useEffect} from 'react';
-import AOS from 'aos';
 import 'aos/dist/aos.css';
 import './Popup.css';
 import {PopupProps} from "@/utils/types";
