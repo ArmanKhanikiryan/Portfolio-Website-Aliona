@@ -72,17 +72,14 @@ const Work = () => {
                 </div>
             </div>
             {
-                data.map(({image,category,description,title}, index) => {
-                    return <Popup
-                        description={description}
-                        image={image}
-                        category={category}
-                        title={title}
-                        open={popupStates[index]}
-                        onClose={() => togglePopup(index)}>
-                        <></>
-                    </Popup>
-                })
+                <Popup
+                    description={data[0].description}
+                    image={data[0].image}
+                    category={data[0].category}
+                    title={data[0].title}
+                    open={popupStates[0]}
+                    onClose={() => togglePopup(0)}>
+                </Popup>
             }
         </div>
     );
