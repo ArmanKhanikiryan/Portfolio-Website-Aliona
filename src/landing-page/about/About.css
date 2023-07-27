@@ -67,19 +67,19 @@
         font-size: 32px;
     }
 }
-@media screen and (max-width: 357px){
+@media screen and (max-width: 400px){
     .about_image{
         margin-top: 200px;
     }
 }
 @media screen and (max-width: 308px){
     .about_image{
-        margin-top: 350px;
+        margin-top: 250px;
     }
 }
 @media screen and (max-width: 280px){
     .about_image{
-        margin-top: 4000px;
+        margin-top: 300px;
     }
 }
 
