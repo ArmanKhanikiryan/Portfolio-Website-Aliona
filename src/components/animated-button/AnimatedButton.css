@@ -1,0 +1,28 @@
+
+.flip-border {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    background-color: transparent;
+    transition: transform 0.5s;
+    transform-style: preserve-3d;
+    width: 60px;
+    height: 20px;
+}
+
+.flip-text-wrapper {
+    line-height: 27px;
+    font-size: 20px;
+    transition: all 0.3s ease-in-out;
+    text-align: center;
+    pointer-events: none;
+}
+
+.flip-parent:hover .flip-border {
+    transform: rotateX(360deg); /* Rotate the border around the X-axis (bottom to top) on hover */
+}
+
+.flip-text{
+
+}

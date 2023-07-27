@@ -28,10 +28,6 @@
     transition: all 0.3s ease-in-out;
 }
 
-.footer_email:hover ~ .line_animation{
-    height: 2px;
-    background-position: -100% 0;
-}
 
 .line_animation{
     width: 100%;
@@ -39,6 +35,11 @@
     background-image: linear-gradient(to right, #B2B2B2 50%, black 50%);
     background-size: 200% 100%;
     transition: background-position 0.3s ease;
+}
+
+.footer_email:hover ~ .line_animation{
+    height: 2px;
+    background-position: -100% 0;
 }
 
 .footer_buttons_wrapper{

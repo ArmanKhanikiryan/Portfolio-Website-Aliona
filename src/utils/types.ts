@@ -1,5 +1,7 @@
 export interface IComponent {
-    handleScrollClick: (position: number) => void
+    handleScrollClick: (position: number) => void;
+    text: string,
+    top: number
 }
 
 export interface IRedirect {
