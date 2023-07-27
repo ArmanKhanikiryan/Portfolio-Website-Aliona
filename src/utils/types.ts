@@ -1,4 +1,3 @@
-import img1 from "@/assets/work-test1.jpg";
 import {ReactNode} from "react";
 
 export interface IComponent {
@@ -15,10 +14,19 @@ export interface IAnimatedButton {
     top: number
 }
 
+export interface PopupProps {
+    open: boolean;
+    onClose: () => void;
+    image: string;
+    description: string;
+    title: string,
+    category: string
+}
+
 interface ISingleData {
     image: string,
-    description: ReactNode,
-    title: ReactNode,
-    category:ReactNode
+    description: string;
+    title: string,
+    category: string
 }
 export type IData = Array<ISingleData>

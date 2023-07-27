@@ -1,16 +1,9 @@
-import React, {FC, ReactNode, useEffect} from 'react';
+import React, {FC, useEffect} from 'react';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import './Popup.css';
+import {PopupProps} from "@/utils/types";
 
-interface PopupProps {
-    open: boolean;
-    onClose: () => void;
-    image: string;
-    description: ReactNode;
-    title: ReactNode,
-    category: ReactNode
-}
 
 const Popup:FC<PopupProps> = ({ open, onClose, image, description, category, title }) => {
     useEffect(() => {
@@ -40,9 +33,9 @@ const Popup:FC<PopupProps> = ({ open, onClose, image, description, category, tit
                             <img src={image} className="popup-image" alt="Popup" />
                         </div>
                         <div className="popup-text-container">
-                            {title}
-                            {category}
-                            {description}
+                            <p>{title}</p>
+                            <p>{category}</p>
+                            <p>{description}</p>
                             <button className="popup-close-button" onClick={onClose}>
                                 Close
                             </button>

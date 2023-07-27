@@ -6,32 +6,26 @@ import {IData} from "@/utils/types";
 export const data:IData = [
     {
         image: img1,
-        description: <p>
-            Illo expedita corrupti placeat cupiditate veniam placeat dolorum
-        libero doloremque. Incidunt cum dolorum dolorem. Sunt et quod molestiae. Quo sed
-        optio quia ducimus aut sed
-            </p>,
-        title: <p>Impression</p>,
-        category:<p>BRANDING / DESIGNING / DEVELOPMENT</p>,
+        description: "Illo expedita corrupti placeat cupiditate veniam placeat dolorum\n" +
+            "        libero doloremque. Incidunt cum dolorum dolorem. Sunt et quod molestiae. Quo sed\n" +
+            "        optio quia ducimus aut sed",
+        title: "Impression",
+        category:"BRANDING / DESIGNING / DEVELOPMENT",
     },
     {
         image: img2,
-        description: <p>
-            Illo expedita corrupti placeat cupiditate veniam placeat dolorum
-        libero doloremque. Incidunt cum dolorum dolorem. Sunt et quod molestiae. Quo sed
-        optio quia ducimus aut sed
-            </p>,
-        title: <p>Sense</p>,
-        category:<p>DESIGN / DEVELOPMENT</p>,
+        description: "Illo expedita corrupti placeat cupiditate veniam placeat dolorum\n" +
+            "        libero doloremque. Incidunt cum dolorum dolorem. Sunt et quod molestiae. Quo sed\n" +
+            "        optio quia ducimus aut sed",
+        title: "Sense",
+        category:"DESIGN / DEVELOPMENT",
     },
     {
         image: img3,
-        description: <p>
-            Illo expedita corrupti placeat cupiditate veniam placeat dolorum
-        libero doloremque. Incidunt cum dolorum dolorem. Sunt et quod molestiae. Quo sed
-        optio quia ducimus aut sed
-            </p>,
-        title: <p>Fundezy</p>,
-        category: <p>DESIGN / DEVELOPMENT</p>,
+        description: "Illo expedita corrupti placeat cupiditate veniam placeat dolorum\n" +
+            "        libero doloremque. Incidunt cum dolorum dolorem. Sunt et quod molestiae. Quo sed\n" +
+            "        optio quia ducimus aut sed",
+        title: "Fundezy",
+        category: "DESIGN / DEVELOPMENT"
     }
 ]
