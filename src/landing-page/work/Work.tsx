@@ -21,8 +21,8 @@ const Work = () => {
         <div className='work_wrapper'>
             <h1 data-aos={defaultAnimation.default} data-aos-duration="1500" className='work_title'>Work</h1>
             <div className='work_section'>
-                <div data-aos={defaultAnimation.default} data-aos-duration="1000" className='work_section_image_wrapper'>
-                    <img onClick={() => togglePopup(0)} className='work_section_image' src={img1} alt='work1' />
+                <div onClick={() => togglePopup(0)} data-aos={defaultAnimation.default} data-aos-duration="1000" className='work_section_image_wrapper'>
+                    <img className='work_section_image' src={img1} alt='work1' />
                 </div>
                 <div data-aos={defaultAnimation.default} data-aos-duration="1500" className='work_section_descriptor'>
                     <div>
@@ -38,8 +38,8 @@ const Work = () => {
                 </div>
             </div>
             <div className='work_section'>
-                <div data-aos={defaultAnimation.default} data-aos-duration="1000" className='work_section_image_wrapper'>
-                    <img onClick={() => togglePopup(1)} className='work_section_image' src={img2} alt='work1' />
+                <div onClick={() => togglePopup(1)} data-aos={defaultAnimation.default} data-aos-duration="1000" className='work_section_image_wrapper'>
+                    <img className='work_section_image' src={img2} alt='work1' />
                 </div>
                 <div data-aos={defaultAnimation.default} data-aos-duration="1500" className='work_section_descriptor'>
                     <div>
@@ -55,8 +55,8 @@ const Work = () => {
                 </div>
             </div>
             <div className='work_section'>
-                <div data-aos={defaultAnimation.default} data-aos-duration="1000" className='work_section_image_wrapper'>
-                    <img onClick={() => togglePopup(2)} className='work_section_image' src={img3} alt='work1' />
+                <div onClick={() => togglePopup(2)} data-aos={defaultAnimation.default} data-aos-duration="1000" className='work_section_image_wrapper'>
+                    <img className='work_section_image' src={img3} alt='work1' />
                 </div>
                 <div data-aos={defaultAnimation.default} data-aos-duration="1500" className='work_section_descriptor'>
                     <div>
