@@ -32,7 +32,7 @@ const About = () => {
 
       </div>
       <div className="about_image_wrapper">
-        <img data-aos={defaultAnimation.default} data-aos-duration="1500" className="about_image" src={img1} alt="about first" />
+        <img data-aos={defaultAnimation.default} data-aos-duration="1000" className="about_image" src={img1} alt="about first" />
       </div>
     </div>
   );
