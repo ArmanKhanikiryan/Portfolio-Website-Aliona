@@ -7,8 +7,9 @@
     background-color: transparent;
     transition: transform 0.5s;
     transform-style: preserve-3d;
-    width: 60px;
     height: 20px;
+    width: fit-content;
+    max-width: fit-content;
 }
 
 .flip-text-wrapper {
@@ -23,8 +24,4 @@
 }
 .flip-parent:hover .flip-border {
     transform: rotateX(360deg); /* Rotate the border around the X-axis (bottom to top) on hover */
-}
-
-.flip-text{
-
 }
