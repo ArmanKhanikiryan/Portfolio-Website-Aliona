@@ -1,3 +1,6 @@
+import img1 from "@/assets/work-test1.jpg";
+import {ReactNode} from "react";
+
 export interface IComponent {
     handleScrollClick: (position: number) => void
 }
@@ -11,3 +14,11 @@ export interface IAnimatedButton {
     text: string,
     top: number
 }
+
+interface ISingleData {
+    image: string,
+    description: ReactNode,
+    title: ReactNode,
+    category:ReactNode
+}
+export type IData = Array<ISingleData>

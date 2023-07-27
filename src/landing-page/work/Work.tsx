@@ -5,45 +5,11 @@ import img3 from "@/assets/work-test3.jpeg"
 import defaultAnimation from "@/default.animation";
 import {useState} from "react";
 import Popup from "@/components/popup";
+import {data} from "@/utils/data";
 
 const Work = () => {
     const [popupStates, setPopupStates] = useState([false, false, false]);
-    // open: boolean;
-    // onClose: () => void;
-    // image: string;
-    // description: ReactNode;
-    const data = [
-        {
-            image: img1,
-            description: <p>
-                Illo expedita corrupti placeat cupiditate veniam placeat dolorum
-                libero doloremque. Incidunt cum dolorum dolorem. Sunt et quod molestiae. Quo sed
-                optio quia ducimus aut sed
-            </p>,
-            title: <p>Impression</p>,
-            category:<p>BRANDING / DESIGNING / DEVELOPMENT</p>,
-        },
-        {
-            image: img2,
-            description: <p>
-                Illo expedita corrupti placeat cupiditate veniam placeat dolorum
-                libero doloremque. Incidunt cum dolorum dolorem. Sunt et quod molestiae. Quo sed
-                optio quia ducimus aut sed
-            </p>,
-            title: <p>Sense</p>,
-            category:<p>DESIGN / DEVELOPMENT</p>,
-        },
-        {
-            image: img3,
-            description: <p>
-                Illo expedita corrupti placeat cupiditate veniam placeat dolorum
-                libero doloremque. Incidunt cum dolorum dolorem. Sunt et quod molestiae. Quo sed
-                optio quia ducimus aut sed
-            </p>,
-            title: <p>Fundezy</p>,
-            category: <p>DESIGN / DEVELOPMENT</p>,
-        }
-    ]
+
 
     const togglePopup = (index: number) => {
         setPopupStates(prevStates =>
