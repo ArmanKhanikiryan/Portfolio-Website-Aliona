@@ -1,8 +1,8 @@
 import './AnimatedButton.css';
 import defaultAnimation from "@/default.animation";
 import {FC} from "react";
-import {IComponent} from "@/utils/types";
-const AnimatedButton:FC<IComponent> = ({handleScrollClick, text, top}) => {
+import {IAnimatedButton} from "@/utils/types";
+const AnimatedButton:FC<IAnimatedButton> = ({handleScrollClick, text, top}) => {
     return (
         <div onClick={() => handleScrollClick(top)} className="container">
             <div className="flip-parent">

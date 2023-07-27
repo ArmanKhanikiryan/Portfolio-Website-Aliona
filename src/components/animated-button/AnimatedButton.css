@@ -18,7 +18,9 @@
     text-align: center;
     pointer-events: none;
 }
-
+.flip-parent{
+    cursor: pointer;
+}
 .flip-parent:hover .flip-border {
     transform: rotateX(360deg); /* Rotate the border around the X-axis (bottom to top) on hover */
 }

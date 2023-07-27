@@ -12,9 +12,9 @@ const Navbar:FC<IComponent> = ({handleScrollClick}) => {
                 <div onClick={() => handleScrollClick(0)} className="buttons">Aliona</div>
             </div>
             <div className='left_part'>
-                <AnimatedButton handleScrollClick={handleScrollClick} text={'Work'} top={2000}/>
-                <AnimatedButton handleScrollClick={handleScrollClick} text={'About'} top={3750}/>
-                <AnimatedButton handleScrollClick={handleScrollClick} text={'Contact'} top={5100}/>
+                <AnimatedButton onClick={handleScrollClick} text={'Work'} top={2000}/>
+                <AnimatedButton onClick={handleScrollClick} text={'About'} top={3750}/>
+                <AnimatedButton onClick={handleScrollClick} text={'Contact'} top={5100}/>
             </div>
         </div>
     );
