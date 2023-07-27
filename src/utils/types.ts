@@ -21,6 +21,7 @@ export interface PopupProps {
     description: string;
     title: string,
     category: string
+    children?: ReactNode
 }
 
 interface ISingleData {
