@@ -43,3 +43,8 @@
         margin-left: 0;
     }
 }
+@media screen and (max-width: 500px){
+   .links_wrapper{
+       margin-bottom: 70px;
+   }
+}
