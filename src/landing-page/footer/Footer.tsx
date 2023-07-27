@@ -14,7 +14,7 @@ const Footer:FC<IComponent> = ({handleScrollClick}) => {
             </div>
 
             <div className='footer_buttons_wrapper'>
-                <AnimatedButton onClick={handleScrollClick} text={'Home'} top={2000}/>
+                <AnimatedButton onClick={handleScrollClick} text={'Home'} top={0}/>
                 <AnimatedButton onClick={handleScrollClick} text={'Work'} top={2000}/>
                 <AnimatedButton onClick={handleScrollClick} text={'About'} top={3750}/>
                 <AnimatedButton onClick={handleScrollClick} text={'Contact'} top={2000}/>
