@@ -3,12 +3,10 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 import './Popup.css';
 import {PopupProps} from "@/utils/types";
+import defaultAnimation from "@/default.animation";
 
 
 const Popup:FC<PopupProps> = ({ open, onClose, image, description, category, title }) => {
-    useEffect(() => {
-        AOS.init();
-    }, []);
 
     useEffect(() => {
         if (open) {
@@ -28,7 +26,7 @@ const Popup:FC<PopupProps> = ({ open, onClose, image, description, category, tit
         <>
             {open && (
                 <div className="popup-overlay" onClick={handleOverlayClick}>
-                    <div className="popup-content" data-aos="zoom-in">
+                    <div className="popup-content" data-aos={defaultAnimation.images} data-aos-duration="500" >
                         <div className="popup-image-container">
                             <img src={image} className="popup-image" alt="Popup" />
                         </div>
