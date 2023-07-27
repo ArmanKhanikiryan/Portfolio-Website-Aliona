@@ -80,6 +80,7 @@ const Work = () => {
                         title={title}
                         open={popupStates[index]}
                         onClose={() => togglePopup(index)}>
+                        <></>
                     </Popup>
                 })
             }
