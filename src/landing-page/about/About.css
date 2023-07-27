@@ -44,6 +44,11 @@
     margin: 100px 0;
     width: 120vh;
     aspect-ratio: 2/1.5;
+    transition: all 0.3s ease-in-out;
+}
+
+.about_image:hover{
+    transform: scale(1.05);
 }
 
 @media screen and (max-width: 945px){

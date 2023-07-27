@@ -10,8 +10,13 @@
     position: absolute;
     right: 45px;
     top: 60vh;
-    transition: all 0.3s ease-in-out;
+    transition: all 0.2s ease-in-out;
     z-index: 2;
+    overflow: hidden;
+}
+
+.header_image:hover{
+    transform: scale(1.05);
 }
 
 .header_text_wrapper{

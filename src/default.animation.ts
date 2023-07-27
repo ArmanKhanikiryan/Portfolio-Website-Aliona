@@ -1,4 +1,5 @@
-const defaultAnimation: {default:string} = {
-    default: 'flip-up'
+const defaultAnimation: {default:string, images: string} = {
+    default: 'flip-up',
+    images: 'fade-in'
 }
 export default defaultAnimation
