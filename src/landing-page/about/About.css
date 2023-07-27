@@ -74,12 +74,12 @@
 }
 @media screen and (max-width: 308px){
     .about_image{
-        margin-top: 3050px;
+        margin-top: 350px;
     }
 }
 @media screen and (max-width: 280px){
     .about_image{
-        margin-top: 400px;
+        margin-top: 4000px;
     }
 }
 
