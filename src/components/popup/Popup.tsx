@@ -5,7 +5,7 @@ import {PopupProps} from "@/utils/types";
 import defaultAnimation from "@/default.animation";
 
 
-const Popup:FC<PopupProps> = ({ open, onClose, image, description, category, title }) => {
+const Popup:FC<PopupProps> = ({ open, onClose, image, description, category, title,fullVideoUrl }) => {
 
     useEffect(() => {
         if (open) {
@@ -27,15 +27,28 @@ const Popup:FC<PopupProps> = ({ open, onClose, image, description, category, tit
                 <div className="popup-overlay" onClick={handleOverlayClick}>
                     <div className="popup-content" data-aos={defaultAnimation.images} data-aos-duration="500" >
                         <div className="popup-image-container">
-                            <img src={image} className="popup-image" alt="Popup" />
+                            <video autoPlay={true} controls={true} src={image} className="popup-image"/>
                         </div>
                         <div className="popup-text-container">
-                            <p>{title}</p>
-                            <p>{category}</p>
-                            <p>{description}</p>
-                            <button className="popup-close-button" onClick={onClose}>
-                                Close
-                            </button>
+                            <div>
+                                <p>{title}</p>
+                                <p>{category}</p>
+                                <p>{description}</p>
+                            </div>
+                            <div className='buttons_wrapper'>
+                                <button className='popup-close-button' onClick={() => {
+                                    if (!fullVideoUrl){
+                                        console.log('Empty')
+                                    }else {
+                                        window.open(fullVideoUrl, '_blank')
+                                    }
+                                }}>
+                                    Click for full video
+                                </button>
+                                <button className="popup-close-button" onClick={onClose}>
+                                    Close
+                                </button>
+                            </div>
                         </div>
                     </div>
                 </div>

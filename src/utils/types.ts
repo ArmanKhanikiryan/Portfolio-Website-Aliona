@@ -18,7 +18,8 @@ export interface PopupProps {
     image: string;
     description: string;
     title: string,
-    category: string
+    category: string,
+    fullVideoUrl: string
 }
 
 interface ISingleData {
@@ -26,5 +27,6 @@ interface ISingleData {
     description: string;
     title: string,
     category: string
+    fullVideoUrl: string
 }
 export type IData = Array<ISingleData>

@@ -72,12 +72,14 @@ const Work = () => {
                 </div>
             </div>
             {
-                data.map(({image,category,description,title}, index) => {
+                data.map(({image,fullVideoUrl,category,description,title}, index) => {
                     return <Popup
+                        key={index}
                         description={description}
                         image={image}
                         category={category}
                         title={title}
+                        fullVideoUrl={fullVideoUrl}
                         open={popupStates[index]}
                         onClose={() => togglePopup(index)}/>
                 })
