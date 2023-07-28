@@ -1,5 +1,3 @@
-import {ReactNode} from "react";
-
 export interface IComponent {
     handleScrollClick: (position: number) => void
 }
@@ -21,7 +19,6 @@ export interface PopupProps {
     description: string;
     title: string,
     category: string
-    children?: ReactNode
 }
 
 interface ISingleData {

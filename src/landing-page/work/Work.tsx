@@ -79,9 +79,7 @@ const Work = () => {
                         category={category}
                         title={title}
                         open={popupStates[index]}
-                        onClose={() => togglePopup(index)}>
-                        {null}
-                    </Popup>
+                        onClose={() => togglePopup(index)}/>
                 })
             }
         </div>
