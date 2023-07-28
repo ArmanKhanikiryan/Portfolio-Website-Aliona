@@ -15,7 +15,7 @@ export interface IAnimatedButton {
 export interface PopupProps {
     open: boolean;
     onClose: () => void;
-    image: string;
+    video: string;
     description: string;
     title: string,
     category: string,
@@ -23,7 +23,7 @@ export interface PopupProps {
 }
 
 interface ISingleData {
-    image: string,
+    video: string,
     description: string;
     title: string,
     category: string
