@@ -5,7 +5,7 @@ import video3 from '@/assets/3 сайт.mp4';
 
 export const data:IData = [
     {
-        image: video1,
+        video: video1,
         description: "Illo expedita corrupti placeat cupiditate veniam placeat dolorum\n" +
             "        libero doloremque. Incidunt cum dolorum dolorem. Sunt et quod molestiae. Quo sed\n" +
             "        optio quia ducimus aut sed",
@@ -14,7 +14,7 @@ export const data:IData = [
         fullVideoUrl: ''
     },
     {
-        image: video2,
+        video: video2,
         description: "Illo expedita corrupti placeat cupiditate veniam placeat dolorum\n" +
             "        libero doloremque. Incidunt cum dolorum dolorem. Sunt et quod molestiae. Quo sed\n" +
             "        optio quia ducimus aut sed",
@@ -23,7 +23,7 @@ export const data:IData = [
         fullVideoUrl: ''
     },
     {
-        image: video3,
+        video: video3,
         description: "Illo expedita corrupti placeat cupiditate veniam placeat dolorum\n" +
             "        libero doloremque. Incidunt cum dolorum dolorem. Sunt et quod molestiae. Quo sed\n" +
             "        optio quia ducimus aut sed",

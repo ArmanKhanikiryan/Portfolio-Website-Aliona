@@ -72,11 +72,11 @@ const Work = () => {
                 </div>
             </div>
             {
-                data.map(({image,fullVideoUrl,category,description,title}, index) => {
+                data.map(({video,fullVideoUrl,category,description,title}, index) => {
                     return <Popup
                         key={index}
                         description={description}
-                        image={image}
+                        video={video}
                         category={category}
                         title={title}
                         fullVideoUrl={fullVideoUrl}
