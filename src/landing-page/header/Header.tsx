@@ -1,5 +1,5 @@
 import './Header.css'
-import img1 from '@/assets/test-img.jpeg'
+import img1 from '@/assets/test-img.webp'
 import defaultAnimation from "@/default.animation";
 const Header = () => {
     return (

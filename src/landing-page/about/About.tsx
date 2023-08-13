@@ -1,5 +1,5 @@
 import "./About.css";
-import img1 from "@/assets/about-test.jpeg";
+import img1 from "@/assets/about-test.webp";
 import defaultAnimation from "@/default.animation";
 const About = () => {
   return (

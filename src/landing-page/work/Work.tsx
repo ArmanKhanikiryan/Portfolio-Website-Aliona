@@ -1,7 +1,7 @@
 import './Work.css'
-import img1 from '@/assets/work-test1.jpg'
-import img2 from "@/assets/work-test2.jpeg"
-import img3 from "@/assets/work-test3.jpeg"
+import img1 from '@/assets/work-test1.webp'
+import img2 from "@/assets/work-test2.webp"
+import img3 from "@/assets/work-test3.webp"
 import defaultAnimation from "@/default.animation";
 import {useState} from "react";
 import Popup from "@/components/popup";
