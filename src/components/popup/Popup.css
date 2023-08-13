@@ -27,7 +27,7 @@
     align-items: center;
     justify-content: center;
     height: 70vh;
-    min-width: 50vw;
+    min-width: 35vw;
 }
 
 .popup-image,
@@ -79,6 +79,17 @@
     .popup-image,
     .popup-video {
         max-height: 50vh;
+    }
+}
+@media screen and (max-width: 500px) {
+    .popup-text-container{
+        font-size: 14px;
+    }
+    .popup-text-container > div > p{
+        margin: 3px;
+    }
+    .popup-content{
+        margin-bottom: 20px;
     }
 }
 

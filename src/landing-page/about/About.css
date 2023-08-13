@@ -42,8 +42,9 @@
 
 .about_image {
     margin: 100px 0;
-    width: 120vh;
-    aspect-ratio: 2/1.5;
+    width: 85%;
+    height: auto;
+    object-fit: contain;
     transition: all 0.3s ease-in-out;
 }
 
@@ -85,6 +86,11 @@
 @media screen and (max-width: 280px){
     .about_image{
         margin-top: 300px;
+    }
+}
+@media screen and (max-width: 270px){
+    .about_image{
+        margin-top: 350px;
     }
 }
 

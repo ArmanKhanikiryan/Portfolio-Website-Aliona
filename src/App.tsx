@@ -10,6 +10,7 @@ import About from "@/landing-page/about";
 import Contact from "@/landing-page/contact";
 import Footer from "@/landing-page/footer";
 import Links from "@/landing-page/links";
+import MetaDescription from "@/components/helmet-discription/MetaDescription";
 
 
 const App = () => {
@@ -33,6 +34,7 @@ const App = () => {
     return (
         <div className='App'>
             <div>
+                <MetaDescription/>
                 <Navbar handleScrollClick={handleScrollClick}/>
                 <Header/>
                 <ServExp/>

@@ -26,7 +26,7 @@ const Work = () => {
                 </div>
                 <div data-aos={defaultAnimation.default} data-aos-duration="1500" className='work_section_descriptor'>
                     <div>
-                        <h3 className='work_descriptor_title'>Impression</h3>
+                        <h2 className='work_descriptor_title'>Impression</h2>
                         <span>BRANDING / DESIGNING / DEVELOPMENT</span>
                     </div>
                     <div data-aos={defaultAnimation.default} data-aos-duration="1500" className='work_section_descriptor_intro'>
@@ -43,7 +43,7 @@ const Work = () => {
                 </div>
                 <div data-aos={defaultAnimation.default} data-aos-duration="1500" className='work_section_descriptor'>
                     <div>
-                        <h3 className='work_descriptor_title'>Sense</h3>
+                        <h2 className='work_descriptor_title'>Sense</h2>
                         <span>DESIGN / DEVELOPMENT</span>
                     </div>
                     <div data-aos={defaultAnimation.default} data-aos-duration="1500" className='work_section_descriptor_intro'>
@@ -60,7 +60,7 @@ const Work = () => {
                 </div>
                 <div data-aos={defaultAnimation.default} data-aos-duration="1500" className='work_section_descriptor'>
                     <div>
-                        <h3 className='work_descriptor_title'>Fundezy</h3>
+                        <h2 className='work_descriptor_title'>Fundezy</h2>
                         <span>DESIGN / DEVELOPMENT</span>
                     </div>
                     <div data-aos={defaultAnimation.default} data-aos-duration="1500" className='work_section_descriptor_intro'>

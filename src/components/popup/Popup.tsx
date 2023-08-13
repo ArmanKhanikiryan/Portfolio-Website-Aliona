@@ -36,14 +36,8 @@ const Popup:FC<PopupProps> = ({ open, onClose, video, description, category, tit
                                 <p>{description}</p>
                             </div>
                             <div className='buttons_wrapper'>
-                                <button className='popup-close-button' onClick={() => {
-                                    if (!fullVideoUrl){
-                                        console.log('Empty')
-                                    }else {
-                                        window.open(fullVideoUrl, '_blank')
-                                    }
-                                }}>
-                                    Click for full video
+                                <button className='popup-close-button' onClick={() => window.open(fullVideoUrl, '_blank')}>
+                                    Full video
                                 </button>
                                 <button className="popup-close-button" onClick={onClose}>
                                     Close
